@@ -1,0 +1,12 @@
+n1=readline(print("Enter a item price: "))
+n1=as.double(n1)
+n2=readline(print("Enter a item price: "))
+n2=as.double(n2)
+n3=readline(print("Enter a item price: "))
+n3=as.double(n3)
+n4=readline(print("Enter a item price: "))
+n4=as.double(n4)
+n5=readline(print("Enter a item price: "))
+n5=as.double(n5)
+avg = (n1+n2+n3+n4+n5)/5
+print(paste("The average cost of item is",avg,"taka"))
